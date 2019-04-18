@@ -10,7 +10,7 @@ function create_link($u,$t){
     return "<a href=\"$u\">$t</a>";
 }
 function create_table($t){
-    echo '<table border="2">';
+    echo '<table border="2" class="table table-hover">';
     for($i=0;$i<sizeof($t);$i++){
         echo '<tr>';
         for($j=0;$j<sizeof($t[$i]);$j++){ 
